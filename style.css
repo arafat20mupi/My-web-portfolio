@@ -90,14 +90,40 @@ nav a{
 
 }
 /* main section  */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /*  adout section */
 .about{
     padding: 130px;
     border-radius: 10px;
-    background: #fff8f3;
+    background: #8f8178;
     margin: 130px 0;
 }
-main{
-    max-width: 1140px;
-    margin: 0 auto;
+
+.about-info-containar{
+    display: flex;
+    justify-content: space-around;
+
+}
+>.about-info{
+    text-align: center;
+
+}
+/* skill related container */
+#what-i-do-description{
+    padding: 30px 150px;
+}
+
+.skill-container{
+    display: flex;
+
+}
+.skill{
+    padding: 30px;
+    gap: 24px;
+}
+.skill-description{
+    
 }
